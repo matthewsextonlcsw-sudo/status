@@ -1,31 +1,33 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Upptime (https://upptime.js.org) — VibeCheck platform status page.
+# Whoops IMP7 O3: public uptime + incident history, hosted OFF our own infra
+# (GitHub Actions pings + GitHub Pages) so it stays up when we are down.
+# URLs only — no code, no PHI, nothing proprietary lives in this repo.
+
+owner: matthewsextonlcsw-sudo
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: VibeCheck app
+    url: https://app.vibecheck.luxury/api/health
+  - name: VibeCheck EMR
+    url: https://emr.vibecheck.luxury/healthz
+  - name: vibecheck.luxury (marketing)
+    url: https://vibecheck.luxury
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.vibecheck.luxury
+  logoUrl: https://vibecheck.luxury/favicon.ico
+  name: VibeCheck Status
+  introTitle: "**VibeCheck** platform status"
+  introMessage: Live uptime and incident history for the VibeCheck app, the EMR, and the marketing site. Checked every 5 minutes from GitHub's infrastructure.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: vibecheck.luxury
+      href: https://vibecheck.luxury
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Solo operator: no issue assignees (the SNS/email page is the wake-up channel).
+assignees: []
+commitMessages:
+  commitAuthorName: upptime-bot
+  commitAuthorEmail: hello@vibecheck.luxury
