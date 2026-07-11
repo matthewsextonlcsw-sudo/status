@@ -1,7 +1,7 @@
 url: https://emr.vibecheck.luxury/healthz
-status: down
-code: 502
-responseTime: 117
-lastUpdated: 2026-07-11T21:21:30.807Z
+status: up
+code: 200
+responseTime: 433
+lastUpdated: 2026-07-11T21:41:30.459Z
 startTime: 2026-07-07T13:59:21.956Z
 generator: Upptime <https://github.com/upptime/upptime>
