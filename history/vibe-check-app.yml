@@ -1,7 +1,7 @@
 url: https://app.vibecheck.luxury/api/health
-status: up
-code: 200
-responseTime: 297
-lastUpdated: 2026-09-14T00:31:02.363Z
+status: down
+code: 503
+responseTime: 227
+lastUpdated: 2026-09-14T20:29:45.197Z
 startTime: 2026-07-07T13:59:21.559Z
 generator: Upptime <https://github.com/upptime/upptime>
